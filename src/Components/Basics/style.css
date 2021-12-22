@@ -1,0 +1,140 @@
+html{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(146, 175, 230);
+}
+
+.card-container{
+  margin: 25px 25px 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgb(189, 187, 187);
+}
+
+.card{
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
+  z-index: 1;
+}
+
+.card-body{
+    display: inline-block;
+}
+
+.card-id{
+    margin-top: 10px;
+}
+
+.subtle{
+    color: rgb(175, 25, 25);
+}
+
+.card-add{
+    float: right;
+    margin: 5px 0 0;
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.card-name{
+    display: block;
+    margin: 15px 0 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.card-price{
+    display: block;
+    margin: 20px 0 0;
+    font-size: 12px;
+}
+
+.card-stock{
+    display: block;
+    margin: 5px 0 0;
+    font-size: 12px;
+}
+
+.card-date{
+    display: block;
+    margin: 5px 0 0;
+    font-size: 12px;
+}
+
+.card-media{
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.main-card--container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 500px));
+    grid-gap: 40px;
+    justify-content: left;
+  }
+
+  .navbar {
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .navbar h1 {
+    padding-bottom: 20px;
+    text-transform: capitalize;
+  }
+
+  .btn-group {
+    border-radius: 1rem;
+    text-transform: capitalize;
+  }
+  
+  .btn-group__item {
+    border: black;
+    /* min-width: 6rem; */
+    padding: 1.5rem 1.5rem;
+    background-color: rgb(189, 187, 187);
+    cursor: pointer;
+    margin: 0;
+    font-size: 17px;
+    box-shadow: inset 0px 0px 0px -15px rebeccapurple;
+    transition: all 300ms ease-out;
+    text-transform: capitalize;
+  }
+
+  .filterbar {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .btn {
+    border-radius: 1rem;
+    text-transform: capitalize;
+  }
+
+  .btn-group_item {
+    border: black;
+    /* min-width: 6rem; */
+    padding: 1.5rem 1.5rem;
+    background-color: rgb(189, 187, 187);
+    cursor: pointer;
+    margin: 0;
+    font-size: 17px;
+    box-shadow: inset 0px 0px 0px -15px rebeccapurple;
+    transition: all 300ms ease-out;
+    text-transform: capitalize;
+  }
+
+  .UserForm {
+    padding: 5px 20px;
+  }
+
+  .fieldset {
+    margin: 20px 0;
+  }
